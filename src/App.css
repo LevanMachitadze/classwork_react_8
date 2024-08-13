@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main_container {
+  max-width: 1440px;
+  width: 100%;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid silver;
+}
+
+.nav_bar {
+  width: 400px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+.sign_buttons {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+button {
+  width: 100px;
+  height: 50px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.sign_in {
+  background-color: #0a157a;
+  color: white;
+}
+.sign_in:hover {
+  background-color: #0a157acf;
+  color: wheat;
+}
+.sign_up {
+  background-color: white;
+  color: #0a157a;
+}
+.sign_up:hover {
+  background-color: #0a157acf;
+  color: wheat;
+}
+
+main {
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+.sign_in_container {
+  width: 300px;
+}
+
+.sign_in_inputs {
+  display: flex;
+  flex-direction: column;
+}
+.sign_in_inputs input {
+  margin: 20px 0px;
+}
+
+.enter_sign_in {
+  display: flex;
+  flex-direction: column;
+}
+
+.enter_sign_in button {
+  width: 50px;
+  height: 30px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.error_p {
+  color: red;
+}
+.forget_password {
+  height: 300px;
+  width: 400px;
+}
+.forget_password input {
+  margin: 20px 0px;
+}
+.forget_password button {
+  width: 50px;
+  height: 30px;
+  border-radius: 10px;
+}
+.error_forget {
+  color: red;
+}
+.sign_up_inputs input {
+  margin-bottom: 20px;
+}
+.error_message {
+  color: red;
+}
+.registration_success {
+  border: 3px dashed black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.registration_success h2 {
+  margin-bottom: 20px;
+}
